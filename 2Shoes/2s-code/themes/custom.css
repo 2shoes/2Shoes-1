@@ -1,0 +1,53 @@
+/* CSS Document */
+
+.aja
+{
+float: left;
+width: 100%;
+margin-bottom: 30px;
+}
+
+.arrow
+{
+float: left;
+width: 100px;
+}
+
+.arrow ul li
+{
+list-style:none;
+}
+
+.head
+{
+text-align:center;
+}
+
+.Feedback
+{
+text-align:center;
+}
+
+.outer
+{
+border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.padd
+{
+padding: 15px;
+}
+
+
+.outer2
+{
+border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    width: 400px;
+	background-color:#FFFFFF;
+	color:#000;
+	padding:10px;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+     
+	<title>[@title]</title>
+    
+    <link rel="stylesheet" href="themes/saneman.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile.structure-1.1.0.min.css" />
+    <style type='text/css'>
+    [@style]
+    </style>
+</head> 
+
+<body> 
+
+    <div data-role="page" style="background-image: url(http://assets.codiqa.com/ps/14245/5c80f3df2b8bac0dheader-2.png); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; background-position: initial initial; background-repeat: repeat repeat;">
+        
+        <div data-role="header" data-theme="a">
+            <a title="Home" data-theme="a" data-wrapperels="span" data-iconshadow="true" data-shadow="true" data-corners="true" class="ui-btn-left ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a" href="[@domain]" data-icon="home" data-iconpos="notext" data-direction="reverse"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Home</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></a>
+            <h1>[@header_text]</h1>
+        </div><!-- /header -->
+         <div data-role="content">
+                 <div align="center">
+                    <img style="width: 135; height: 50px" src="themes/images/logo.png" />
+                </div>
+        <div data-role="content">
+        [@content]
+        </div><!-- /content -->
+        
+        <div data-role="footer" class="ui-bar" data-theme="a">
+        </div><!-- /footer -->
+    
+    </div><!-- /page -->
+
+ <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    
+    <script type="text/javascript">
+    $(document).on("mobileinit", function(){
+
+		  $.mobile.ajaxEnabled = false;
+    });
+    </script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+    <!-- include CSS & JS files -->
+<!-- CSS file -->
+<link rel="stylesheet" type="text/css" href="QapTcha.jquery.css" media="screen" />
+ 
+<!-- jQuery files -->
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery-ui.js"></script>
+<script type="text/javascript" src="jquery.ui.touch.js"></script>
+<script type="text/javascript" src="QapTcha.jquery.js"></script>
+
+    [@script]
+</body>
+</html>
